@@ -1,4 +1,5 @@
 
+import 'package:categlory/ui/pages/favor/favor_content.dart';
 import 'package:flutter/material.dart';
 
 class HZYFavorScreen extends StatelessWidget {
@@ -8,9 +9,7 @@ class HZYFavorScreen extends StatelessWidget {
         appBar: AppBar(
           title: Text("我的收藏"),
         ),
-        body: Center(
-          child: Text("收藏"),
-        )
+        body: HZYFavorContent()
     );
   }
 }

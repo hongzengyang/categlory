@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:categlory/core/model/category_model.dart';
 import 'package:flutter/services.dart';
 
-class JsonParse {
+class HZYJsonParse {
   static Future<List<HZYCategoryModel>> getCategoryData () async {
     //1.加载json文件
     final jsonString = await rootBundle.loadString("assets/json/category.json");
